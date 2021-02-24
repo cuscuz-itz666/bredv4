@@ -1760,7 +1760,7 @@ case 'timer':
                                         var teks2 = gh.split("|")[1];
                                         if (args.length < 1) return reply(`teksnya mana um\nContoh: ${prefix}lionlogo Toin|BOT`)
                                         reply(mess.wait)
-                                        anu = await fetchJson(`https://tobz-api.herokuapp.com/api/textpro?theme=lionlogo&text1=${text1}&text2=${teks2}&apikey=BotWeA`, {method: 'get'})
+                                        anu = await fetchJson(`https://tobz-api.herokuapp.com/api/textpro?theme=lionlogo&text1${text1}&text2=${teks2}&apikey=BotWeA`, {method: 'get'})
                                         buffer = await getBuffer(anu.result)
                                         client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Eh...'})
                                         break
