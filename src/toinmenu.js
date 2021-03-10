@@ -1,11 +1,11 @@
 const toinmenu = (prefix, pushname) => {
-    return `◪ *Comandos do causs*
+    return `◪ *Comandos do Cuscuz*
     │
-    ├─ ❏ ${prefix}setprefix
-    ├─ ❏ ${prefix}block
-    ├─ ❏ ${prefix}bc
-    ├─ ❏ ${prefix}bcgc
-    └─ ❏ ${prefix}clearall`
+    ├─ 👨🏻‍💻 ${prefix}setprefix
+    ├─ 👨🏻‍💻 ${prefix}block
+    ├─ 👨🏻‍💻 ${prefix}bc
+    ├─ 👨🏻‍💻 ${prefix}bcgc
+    └─ 👨🏻‍💻 ${prefix}clearall`
 
 }
 
